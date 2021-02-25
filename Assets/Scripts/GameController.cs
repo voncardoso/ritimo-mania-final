@@ -16,7 +16,11 @@ public enum GameState
 public class GameController : MonoBehaviour
 {
     private static GameController _instance = null;
-
+   // private float timeLevel;
+   // public static bool stopTime = false ;
+    //public Text timeLevel_txt;
+   
+   
     public GameState gameState;
     public Text rodadaTxt, tamanhoSeqTxt;
 
@@ -57,11 +61,14 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        
         InitializeIndex();
+
     }
 
     public void InitializeIndex()
     {
+
         fonteAudio = GetComponent<AudioSource>();
         SpeedSelect();
         tamanhoSeq = Mathf.FloorToInt(SetConfig.Instance.SequenceSize);
@@ -142,17 +149,26 @@ public class GameController : MonoBehaviour
 
     public void StartGame()
     {
+
         buttonRepetir.SetActive(false);
         foreach (GameObject obj in botoes)
         {
+            
             obj.SetActive(false);
+            
         }
+        // if(stopTime == false){
+         //   timeLevel = timeLevel + Time.deltaTime;
+           // timeLevel_txt.text = timeLevel.ToString("F0");
+          //  print("time" + timeLevel);
+      //  }
         StartCoroutine("Sequencia", tamanhoSeq + rodada);
 
     }
 
     public void NovaRodada()
     {
+        
         foreach (GameObject obj in botoes)
         {
             obj.SetActive(false);
@@ -163,6 +179,7 @@ public class GameController : MonoBehaviour
         startButton.SetActive(true);
         rodadaTxt.text = string.Format("Rodada: {0}", rodada + 1);
         tamanhoSeqTxt.text = string.Format("Sequência: {0}", tamanhoSeq + rodada);
+
     }
 
     IEnumerator Sequencia(int qtd)
@@ -202,6 +219,8 @@ public class GameController : MonoBehaviour
             print("correto");
             verificar = true;
             fonteAudio.PlayOneShot(sons[idbotao]);
+            Timer.stopTime = true;
+            
         }
         else
         {
@@ -210,7 +229,7 @@ public class GameController : MonoBehaviour
             verificar = false;
             StartCoroutine("GameOver");
         }
-
+        
         idResposta += 1;
 
         if (idResposta == coresSeq.Count)
@@ -219,6 +238,7 @@ public class GameController : MonoBehaviour
 
             if (verificar == true)
             {
+                 Timer.stopTime = false;
                 rodada += 1;
                 Instantiate(confeteParticulas1, canonConfete1.transform.position, canonConfete1.transform.rotation);
                 Instantiate(confeteParticulas2, canonConfete2.transform.position, canonConfete2.transform.rotation);
