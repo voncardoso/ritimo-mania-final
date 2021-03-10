@@ -21,6 +21,7 @@ public class ConfigController : MonoBehaviour
     private List<string> _colorsList;
     private List<string> _speedList;
     private List<string> _sondsList;
+    private List<string> _typeList;
 
    
     private void Start()
@@ -94,6 +95,7 @@ public class ConfigController : MonoBehaviour
         _colorsList = new List<string> { "Branco", "Preto" };
         _speedList = new List<string> { "Rápido", "Normal", "Lento" };
         _sondsList = new List<string> { "Piano", "Digital", "Flauta" };
+        _typeList = new List<string> { "Sim", "Não" };
     }
 
     private void InitializeDropdown()
@@ -101,6 +103,7 @@ public class ConfigController : MonoBehaviour
         DropdownBackgroundColor.AddOptions(_colorsList);
         DropdownSpeed.AddOptions(_speedList);
         DropdownSonds.AddOptions(_sondsList);
+        DropdownText.AddOptions(_typeList);
     }
 
     private void AddListeners()

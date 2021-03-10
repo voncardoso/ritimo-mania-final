@@ -67,7 +67,7 @@ public class Orange : ButtonClass
 
         if (selectButton == 7)
         {
-            x = 4.6f;
+            x = 4.2f;
             y = -2.5f;
             z = 85.8f;
             sx = 50f;

@@ -67,7 +67,7 @@ public class Pink : ButtonClass
 
         if (selectButton == 7)
         {
-            x = -3.8f;
+            x = -4.2f;
             y = -2.5f;
             z = 85.8f;
             sx = 50f;

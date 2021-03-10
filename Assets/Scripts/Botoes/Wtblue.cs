@@ -67,7 +67,7 @@ public class Wtblue : ButtonClass
 
         if (selectButton == 7)
         {
-            x = 0.45f;
+            x = 0.025f;
             y = -2.5f;
             z = 85.8f;
             sx = 50f;

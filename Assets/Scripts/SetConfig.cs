@@ -14,6 +14,9 @@ public class SetConfig : MonoBehaviour
                                  _sonds,
                                  _speed;
                                  
+
+    [SerializeField] public static int _text;
+                                 
     [SerializeField] private float _buttonNumber, _sequenceSize;
 
 
@@ -52,6 +55,14 @@ public class SetConfig : MonoBehaviour
         get { return _sequenceSize; }
         set { _sequenceSize = value; }
     }
+
+    public int TypeText
+    {
+        get { return _text; }
+        set { _text = value; }
+    }
+
+
     #endregion
 
 
@@ -98,10 +109,6 @@ public class SetConfig : MonoBehaviour
     public void Jogar()
     {
 
-        
-        
-        
-
         Blue.Instance.GetSelectButtons();
         Green.Instance.GetSelectButtons();
         Red.Instance.GetSelectButtons();
@@ -118,7 +125,7 @@ public class SetConfig : MonoBehaviour
     public void SelectSpeed() => Speed = ConfigController.Instance.DropdownSpeed.value;
     public void SelectBackgroundColor() => BackgroundGameColor = ConfigController.Instance.DropdownBackgroundColor.value;
     public void SelectSonds() => Sonds = ConfigController.Instance.DropdownSonds.value;
-    public void SelectText() => Debug.Log("Falta a variavel");
+    public void SelectText() => TypeText = ConfigController.Instance.DropdownText.value;
 
     void Update()
     {
@@ -126,9 +133,6 @@ public class SetConfig : MonoBehaviour
         {
             Jogar();
         }
-        //if (Input.GetKeyDown(KeyCode.P)) seila();
-        //if (Input.GetKeyDown(KeyCode.S)) Save();
-        //if (Input.GetKeyDown(KeyCode.L)) Load();
     }
 
     /*

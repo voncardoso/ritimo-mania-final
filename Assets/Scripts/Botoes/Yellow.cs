@@ -67,7 +67,7 @@ public class Yellow : ButtonClass
 
         if (selectButton == 7)
         {
-            x = 6.8f;
+            x = 6.5f;
             y = 1.9f;
             z = 85.8f;
             sx = 50f;
@@ -100,7 +100,7 @@ public class Yellow : ButtonClass
         }
         else if (selectButton == 4)
         {
-            x = 5.9f;
+            x = 6.6f;
             y = 0f;
             z = 85.8f;
             sx = 50f;

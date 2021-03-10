@@ -67,7 +67,7 @@ public class Green : ButtonClass
 
         if (selectButton == 7)
         {
-            x = -2.4f;
+            x = -2.1f;
             y = 1.9f;
             z = 85.8f;
             sx = 50f;
