@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 58102899}
   - component: {fileID: 58102898}
   m_Layer: 0
-  m_Name: ButtonOrangeOFF
+  m_Name: ButtonYellowOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,7 +235,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4e507dadc74a36a4dbef5690ea830f86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c52644c536a0c0f4789b77c67722e663, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 227371032}
   - component: {fileID: 227371031}
   m_Layer: 0
-  m_Name: ButtonYellowON
+  m_Name: ButtonPinkON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,7 +452,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d0965417ea8af5439c34d5b8f43a822, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4dec42801546f74facfda988f8b137e, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 267154399}
   - component: {fileID: 267154398}
   m_Layer: 0
-  m_Name: ButtonGreenON
+  m_Name: ButtonBlueON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -590,7 +590,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eae66a3613e688f47a7ffc39463fc6f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 268164720a8d25a44916f3c165de10fc, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 340861597}
   - component: {fileID: 340861596}
   m_Layer: 0
-  m_Name: ButtonPinkOFF
+  m_Name: ButtonRedOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -894,7 +894,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 71f86e88f7ee9b1439845a2c40bbde00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1364cb28ab576af4a8a1788056f4f639, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -919,7 +919,7 @@ GameObject:
   - component: {fileID: 438698954}
   - component: {fileID: 438698953}
   m_Layer: 0
-  m_Name: ButtonGreenOFF
+  m_Name: ButtonBlueOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1020,12 +1020,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: db901458e89895544836dd9655d89f9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8411d4c711ce67e4aa63af147f8ff2d3, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 5.58, y: 5.84}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 506591936}
   - component: {fileID: 506591935}
   m_Layer: 0
-  m_Name: ButtonBlueON
+  m_Name: ButtonGreenON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1203,7 +1203,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9c66041f4a0ff744d9cf5c6b7bea4824, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42a99763e5134ff40a13046d6d4a4b80, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 573824375}
   - component: {fileID: 573824374}
   m_Layer: 0
-  m_Name: ButtonWtblueON
+  m_Name: ButtonOrangeON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1341,7 +1341,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5df711528f7437947bfe2de3f4c553e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5927566f476a8ff4194f750a2af566e0, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1498,7 +1498,7 @@ GameObject:
   - component: {fileID: 821740252}
   - component: {fileID: 821740251}
   m_Layer: 0
-  m_Name: ButtonWtblueOFF
+  m_Name: ButtonOrangeOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,7 +1599,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7091af31797341844a0b3076f2afe390, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e507dadc74a36a4dbef5690ea830f86, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1624,7 +1624,7 @@ GameObject:
   - component: {fileID: 823672110}
   - component: {fileID: 823672109}
   m_Layer: 0
-  m_Name: ButtonRedOFF
+  m_Name: ButtonPurpleOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1725,7 +1725,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1364cb28ab576af4a8a1788056f4f639, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7091af31797341844a0b3076f2afe390, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 899558687}
   - component: {fileID: 899558686}
   m_Layer: 0
-  m_Name: ButtonPinkON
+  m_Name: ButtonRedON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,7 +1863,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e4dec42801546f74facfda988f8b137e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 316368f3e7213e04a90e9b8c5fae9e17, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2169,7 +2169,7 @@ GameObject:
   - component: {fileID: 1014111028}
   - component: {fileID: 1014111027}
   m_Layer: 0
-  m_Name: ButtonYellowOFF
+  m_Name: ButtonPinkOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2270,7 +2270,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c52644c536a0c0f4789b77c67722e663, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71f86e88f7ee9b1439845a2c40bbde00, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3164,7 +3164,7 @@ GameObject:
   - component: {fileID: 1644333911}
   - component: {fileID: 1644333910}
   m_Layer: 0
-  m_Name: ButtonOrangeON
+  m_Name: ButtonYellowON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3277,7 +3277,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5927566f476a8ff4194f750a2af566e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d0965417ea8af5439c34d5b8f43a822, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3302,7 +3302,7 @@ GameObject:
   - component: {fileID: 1652846653}
   - component: {fileID: 1652846652}
   m_Layer: 0
-  m_Name: ButtonBlueOFF
+  m_Name: ButtonGreenOFF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3403,12 +3403,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8411d4c711ce67e4aa63af147f8ff2d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db901458e89895544836dd9655d89f9a, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 5.58, y: 5.84}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3699,7 +3699,7 @@ GameObject:
   - component: {fileID: 1770170929}
   - component: {fileID: 1770170928}
   m_Layer: 0
-  m_Name: ButtonRedON
+  m_Name: ButtonPurpleON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3812,7 +3812,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 316368f3e7213e04a90e9b8c5fae9e17, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5df711528f7437947bfe2de3f4c553e0, type: 3}
   m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
