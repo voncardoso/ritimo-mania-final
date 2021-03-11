@@ -81,31 +81,6 @@ public class GameController : MonoBehaviour
     {
         int j = Mathf.FloorToInt(SetConfig.Instance.ButtonNumber);
 
-        /* if (SetConfig.Instance.ButtonNumber == 0)
-        {
-            j = 7;
-        }
-        else if (SetConfig.Instance.ButtonNumber == 1)
-        {
-            j = 6;
-        }
-        else if (SetConfig.Instance.ButtonNumber == 2)
-        {
-            j = 5;
-        }
-        else if (SetConfig.Instance.ButtonNumber == 3)
-        {
-            j = 4;
-        }
-        else if (SetConfig.Instance.ButtonNumber == 4)
-        {
-            j = 3;
-        }
-        else
-        {
-            j = 7;
-        } */
-
         if (SetConfig.Instance.Sonds == 0)
         {
             for (int q = 0; q < j; q++)

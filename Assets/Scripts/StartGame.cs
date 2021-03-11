@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class StartGame : MonoBehaviour
 {
     public GameController gameController;
-     public Timer  timer;
+    public Timer  timer;
 
    public void OnMouseDown()
     {
